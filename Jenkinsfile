@@ -3,6 +3,12 @@ pipeline {
 
     stages {
 
+        stage('Install Dependencies') {
+            steps {
+                bat 'pip install -r requirements.txt'
+            }
+        }
+
         stage('Build Docker Containers') {
             steps {
                 bat 'docker-compose build'
@@ -17,7 +23,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'pytest --html=reports/report.html'
+                bat 'python -m pytest --html=reports/report.html'
             }
         }
 
@@ -26,7 +32,6 @@ pipeline {
                 bat 'docker-compose down'
             }
         }
-
     }
 
     post {
