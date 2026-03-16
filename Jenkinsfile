@@ -5,7 +5,8 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'pip install -r requirements.txt'
+                bat 'python -m pip install --upgrade pip'
+                bat 'python -m pip install -r requirements.txt'
             }
         }
 
@@ -27,7 +28,7 @@ pipeline {
             }
         }
 
-        stage('Stop Containers') {
+        stage('Stop Services') {
             steps {
                 bat 'docker-compose down'
             }
@@ -36,7 +37,7 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'reports/*.html'
+            archiveArtifacts artifacts: 'reports/*.html', fingerprint: true
         }
     }
 }
