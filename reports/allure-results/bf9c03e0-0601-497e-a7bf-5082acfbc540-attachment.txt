@@ -1,0 +1,3 @@
+Clicking element: ('xpath', "//button[contains(text(),'Sign In')]")
+Clicking element: ('xpath', "//a[contains(text(),'Test Scenarios')]")
+Clicking element: ('id', 'alert-btn')

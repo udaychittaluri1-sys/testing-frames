@@ -1,0 +1,2 @@
+Clicking element: ('xpath', "//button[contains(text(),'Sign In')]")
+Clicking element: ('id', 'nav-projects')

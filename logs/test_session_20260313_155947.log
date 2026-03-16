@@ -1,0 +1,3 @@
+2026-03-13 15:59:51,483 - test_session - INFO - Starting test: test_valid_admin_login
+2026-03-13 15:59:51,541 - test_session - INFO - Starting TC01 - Valid Admin Login
+2026-03-13 16:00:13,168 - test_session - INFO - Finished test: test_valid_admin_login

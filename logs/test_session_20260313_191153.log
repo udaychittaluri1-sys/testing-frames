@@ -1,0 +1,36 @@
+2026-03-13 19:11:59,436 - test_session - INFO - Starting test: test_admin_users_page_access
+2026-03-13 19:11:59,479 - test_session - INFO - Starting TC03 - Admin Users Page Access
+2026-03-13 19:12:24,713 - test_session - INFO - Finished test: test_admin_users_page_access
+2026-03-13 19:12:24,717 - test_session - INFO - Starting test: test_non_admin_access_restriction
+2026-03-13 19:12:24,720 - test_session - INFO - Starting TC04 - Non-Admin Access Restriction
+2026-03-13 19:12:46,797 - test_session - INFO - Finished test: test_non_admin_access_restriction
+2026-03-13 19:12:46,800 - test_session - INFO - Starting test: test_valid_admin_login
+2026-03-13 19:12:46,802 - test_session - INFO - Starting TC01 - Valid Admin Login
+2026-03-13 19:13:08,957 - test_session - INFO - Finished test: test_valid_admin_login
+2026-03-13 19:13:09,071 - test_session - INFO - Starting test: test_invalid_login_matrix[email-password-expected_error0]
+2026-03-13 19:13:09,193 - test_session - INFO - Starting TC02 - Invalid Login with email: email, password: password
+2026-03-13 19:13:32,426 - test_session - INFO - Finished test: test_invalid_login_matrix[email-password-expected_error0]
+2026-03-13 19:13:32,430 - test_session - INFO - Starting test: test_invalid_login_matrix[email-password-expected_error1]
+2026-03-13 19:13:32,447 - test_session - INFO - Starting TC02 - Invalid Login with email: email, password: password
+2026-03-13 19:13:55,409 - test_session - INFO - Finished test: test_invalid_login_matrix[email-password-expected_error1]
+2026-03-13 19:13:55,439 - test_session - INFO - Starting test: test_invalid_login_matrix[email-password-expected_error2]
+2026-03-13 19:13:55,444 - test_session - INFO - Starting TC02 - Invalid Login with email: email, password: password
+2026-03-13 19:14:18,741 - test_session - INFO - Finished test: test_invalid_login_matrix[email-password-expected_error2]
+2026-03-13 19:14:18,745 - test_session - INFO - Starting test: test_invalid_login_matrix[email-password-expected_error3]
+2026-03-13 19:14:18,747 - test_session - INFO - Starting TC02 - Invalid Login with email: email, password: password
+2026-03-13 19:14:40,597 - test_session - INFO - Finished test: test_invalid_login_matrix[email-password-expected_error3]
+2026-03-13 19:14:40,600 - test_session - INFO - Starting test: test_alerts_handling
+2026-03-13 19:14:40,613 - test_session - INFO - Starting TC07 - Alerts Handling
+2026-03-13 19:15:02,634 - test_session - INFO - Finished test: test_alerts_handling
+2026-03-13 19:15:02,642 - test_session - INFO - Starting test: test_frames_and_window_handling
+2026-03-13 19:15:02,643 - test_session - INFO - Starting TC08 - Frames and Window/Tab Handling
+2026-03-13 19:15:24,558 - test_session - INFO - Finished test: test_frames_and_window_handling
+2026-03-13 19:15:24,561 - test_session - INFO - Starting test: test_dashboard_load
+2026-03-13 19:15:24,563 - test_session - INFO - Starting dashboard load test
+2026-03-13 19:15:46,732 - test_session - INFO - Finished test: test_dashboard_load
+2026-03-13 19:15:46,735 - test_session - INFO - Starting test: test_project_creation_flow
+2026-03-13 19:15:46,740 - test_session - INFO - Starting TC05 - Project Creation Flow
+2026-03-13 19:16:08,624 - test_session - INFO - Finished test: test_project_creation_flow
+2026-03-13 19:16:08,626 - test_session - INFO - Starting test: test_task_status_update
+2026-03-13 19:16:08,641 - test_session - INFO - Starting TC06 - Task Status Update
+2026-03-13 19:16:30,425 - test_session - INFO - Finished test: test_task_status_update

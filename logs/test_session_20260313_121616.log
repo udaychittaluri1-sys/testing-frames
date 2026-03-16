@@ -1,0 +1,3 @@
+2026-03-13 12:16:24,765 - test_session - INFO - Starting test: test_dashboard_load
+2026-03-13 12:16:24,881 - test_session - INFO - Starting dashboard load test
+2026-03-13 12:16:46,326 - test_session - INFO - Finished test: test_dashboard_load

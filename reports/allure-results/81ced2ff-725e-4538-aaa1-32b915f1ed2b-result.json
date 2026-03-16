@@ -1,0 +1,1 @@
+{"name": "test_accept_alert", "status": "passed", "start": 1773463044458, "stop": 1773463053297, "uuid": "77a9dc90-6b4f-4726-8e1f-3530e04df4d0", "testCaseId": "30f6e12f1ab2465882f77da9e51f3d2c", "fullName": "tests.test_browser_interactions#test_accept_alert", "titlePath": ["tests", "test_browser_interactions.py"]}

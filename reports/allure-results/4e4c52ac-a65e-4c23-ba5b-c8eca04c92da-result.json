@@ -1,0 +1,1 @@
+{"name": "test_valid_admin_login", "status": "passed", "start": 1773637984041, "stop": 1773637993008, "uuid": "6bff4d5a-895b-4ee9-9646-1279af888072", "testCaseId": "413f3f8103262eb32245a6d2105c2da0", "fullName": "tests.test_dashboard#test_valid_admin_login", "titlePath": ["tests", "test_dashboard.py"]}

@@ -1,0 +1,10 @@
+2026-03-13 15:56:46,284 - test_session - INFO - Starting test: test_basic_navigation
+2026-03-13 15:56:54,466 - test_session - INFO - Finished test: test_basic_navigation
+2026-03-13 15:56:54,540 - test_session - INFO - Starting test: test_driver
+2026-03-13 15:57:03,621 - test_session - INFO - Finished test: test_driver
+2026-03-13 15:57:03,631 - test_session - INFO - Starting test: test_admin_users_page_access
+2026-03-13 15:57:03,635 - test_session - INFO - Starting TC03 - Admin Users Page Access
+2026-03-13 15:57:24,984 - test_session - INFO - Finished test: test_admin_users_page_access
+2026-03-13 15:57:24,986 - test_session - INFO - Starting test: test_non_admin_access_restriction
+2026-03-13 15:57:24,988 - test_session - INFO - Starting TC04 - Non-Admin Access Restriction
+2026-03-13 15:57:39,140 - test_session - INFO - Finished test: test_non_admin_access_restriction

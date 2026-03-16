@@ -1,0 +1,4 @@
+Clicking element: ('xpath', "//button[contains(text(),'Sign In')]")
+Clicking element: ('xpath', "//a[contains(text(),'Tasks')]")
+Clicking element: ('css selector', 'select')
+Clicking element: ('xpath', "//button[@id='update-task']")
