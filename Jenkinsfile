@@ -8,10 +8,10 @@ pipeline {
     stages {
 
         stage('Checkout Code') {
-            steps {
-                git 'https://github.com/udaychittaluri1-sys/testing-frames.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/udaychittaluri1-sys/testing-frames.git'
+    }
+}
 
         stage('Build Docker Containers') {
             steps {
