@@ -5,8 +5,8 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'python -m pip install --upgrade pip'
-                bat 'python -m pip install -r requirements.txt'
+                bat '"C:\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pip install --upgrade pip'
+                bat '"C:\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pip install -r requirements.txt'
             }
         }
 
@@ -24,7 +24,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'python -m pytest --html=reports/report.html'
+                bat '"C:\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pytest --html=reports/report.html'
             }
         }
 
@@ -37,7 +37,7 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'reports/*.html', fingerprint: true
+            archiveArtifacts artifacts: 'reports/*.html'
         }
     }
 }
