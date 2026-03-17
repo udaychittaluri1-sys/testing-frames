@@ -5,8 +5,8 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat '"C:\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pip install --upgrade pip'
-                bat '"C:\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pip install -r requirements.txt'
+                bat '"C:\\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pip install --upgrade pip'
+                bat '"C:\\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pip install -r requirements.txt'
             }
         }
 
@@ -24,7 +24,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat '"C:\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pytest --html=reports/report.html'
+                bat '"C:\\Users\chitt\AppData\Local\Programs\Python\Python311\python.exe" -m pytest --html=reports/report.html'
             }
         }
 
